@@ -92,16 +92,6 @@ h1 {
   padding-top: 100px;
   font-weight: 600;
 }
-
-@media (min-width: 1000px) {
-  h1 {
-    font-size: 70px;
-  }
-  .img-fluid {
-    width: 50%;
-  }
-}
-
 h2 {
   font-size: 30px;
 }
@@ -144,4 +134,13 @@ button:hover {
 }
 img {
   border-radius: 20px;
+}
+
+@media (min-width: 1000px) {
+  h1 {
+    font-size: 70px;
+  }
+  .img-fluid {
+    width: 50%;
+  }
 }
